@@ -1,0 +1,30 @@
+/* Background color for the standings table */
+.standings-table {
+    background-color: #FF0000; /* Red */
+    border: 1px solid #ddd;
+}
+
+/* Change the text color of team names */
+.standings-table td, .standings-table th {
+    color: #FF0000; /* Red */
+}
+
+/* Highlight the first-place team */
+.standings-table tr:first-child {
+    background-color: #FFD700; /* Gold */
+    font-weight: bold;
+}
+
+/* Customize the game score appearance */
+.score-cell {
+    color: #FF0000; /* Red */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Change the background of the schedule */
+.schedule-container {
+    background-color: #fff; /* White */
+    border: 2px solid #007bff; /* Blue */
+    padding: 10px;
+}
