@@ -1,55 +1,8 @@
-/* General Table Styling */
-.standings-table {
-    background-color: #DDD; /* Light gray background */
-    border: 1px solid #AAA; /* Gray border */
-}
-
-/* Table Header */
-.standings-table th {
-    background-color: #555; /* Dark gray */
-    color: #FFF; /* White text */
+/* Change ALL team names to RED */
+.standings-table td:first-child {
+    color: #FF0000 !important; /* Red text */
     font-weight: bold;
 }
 
-/* Table Rows */
-.standings-table td {
-    color: #333; /* Dark text */
-    font-size: 14px;
-}
-
-/* First-place Team Highlight (No yellow/gold) */
-.standings-table tr:first-child {
-    background-color: #BBB; /* Medium gray */
-    font-weight: bold;
-}
-
-/* Score Cell Customization */
-.score-cell {
-    color: #FF5733; /* Bright orange */
-    font-size: 18px;
-}
-
-/* Schedule Styling */
-.schedule-container {
-    background-color: #F5F5F5; /* Soft gray */
-    border: 1px solid #CCC;
-    padding: 10px;
-}
-
-/* Game Time Styling */
-.game-time {
-    font-weight: bold;
-    color: #222; /* Dark gray */
-}
-
-/* Field Number Styling */
-.field-number {
-    background-color: #EEE; /* Light gray */
-    padding: 5px;
-    border-radius: 3px;
-}
-
-/* Remove Yellow Highlights in the First Row */
-.standings-table tr:first-child td {
-    background-color: #CCC; /* Neutral gray */
-}
+/* Alternative: If you want BLACK instead of red, change to: */
+/* color: #000000 !important; */
