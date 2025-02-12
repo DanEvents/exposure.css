@@ -1,8 +1,9 @@
-/* Change ALL team names to RED */
-.standings-table td:first-child {
-    color: #FF0000 !important; /* Red text */
-    font-weight: bold;
+/* Force ALL team names to be RED */
+.standings-table td:first-child, 
+.standings-table td.team-name { 
+    color: #FF0000 !important; /* Change to RED */
+    font-weight: bold !important;
 }
 
-/* Alternative: If you want BLACK instead of red, change to: */
+/* Alternative: If you want BLACK instead of red, change the color to: */
 /* color: #000000 !important; */
