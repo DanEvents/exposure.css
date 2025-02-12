@@ -1,9 +1,32 @@
-/* Force ALL team names to be RED */
-.standings-table td:first-child, 
-.standings-table td.team-name { 
-    color: #FF0000 !important; /* Change to RED */
-    font-weight: bold !important;
+
+/* Add red accents to the widget */
+
+/* Header background color */
+.header-background {
+  background-color: #FF0000; /* Red */
 }
 
-/* Alternative: If you want BLACK instead of red, change the color to: */
-/* color: #000000 !important; */
+/* Button colors */
+.button {
+  background-color: #FF0000; /* Red */
+  color: #FFFFFF; /* White */
+}
+
+.button:hover {
+  background-color: #CC0000; /* Darker red */
+}
+
+/* Table header colors */
+.table-header {
+  background-color: #FF0000; /* Red */
+  color: #FFFFFF; /* White */
+}
+
+/* Link colors */
+.link {
+  color: #FF0000; /* Red */
+}
+
+.link:hover {
+  color: #CC0000; /* Darker red */
+}
